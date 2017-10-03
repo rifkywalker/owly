@@ -1,1 +1,17 @@
-<h1>Hello Wolrd!!</h1>
+<!DOCTYPE html>
+<html>
+<head>
+     <title>QR Code Generator</title>
+     <script src="http://mexio.us/content/jquery.min.js"></script>
+<script src="http://mexio.us/content/qrcode.min.js"></script>
+</head>
+<body>
+    <div id="myQR">
+<script>
+var area = document.getElementById('myQR');
+new QRCode(area, "http://www.mexious.net"); // URL-nya diganti dengan isi yang diinginkan
+</script>
+</div>
+
+</body>
+</html>
